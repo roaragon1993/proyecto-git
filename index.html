@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+
+<body class="body">
+	<script src="funcionalidad.js"></script>
+	<!-- Aquí comienza la calculadora-->
+	<div class="calculadora" align="center">
+		<br>
+		<img class="imagen" src="imagenes/casio.jpg">
+
+		<div class="tabla">
+
+			<table align="center">
+
+				<form name="calculator">
+					<tr>
+						<td colspan="4"> <input type="textfield" class="input" name="ans" value="0"> </td>
+
+					<tr>
+						<td> <button name="data-number" class="number" input type="button" value="1"
+								onClick="document.calculator.ans.value+='1'"> <b> 1 </b> </button> </td>
+						<td> <button name="data-number" class="number" input type="button" value="2"
+								onClick="document.calculator.ans.value+='2'"> <b> 2 </b> </button> </td>
+						<td> <button name="data-number" class="number" input type="button" value="3"
+								onClick="document.calculator.ans.value+='3'"> <b> 3 </b> </button> </td>
+						<td> <button name="data-number" class="boton" input type="button" value=""
+								onClick="document.calculator.ans.value+='+'"> <b> + </b> </button> </td>
+					</tr>
+
+					<tr>
+						<td> <button name="data-number" class="number" input type="button" value="4"
+								onClick="document.calculator.ans.value+='4'"> <b> 4 </b> </button> </td>
+						<td> <button name="data-number" class="number" input type="button" value="5"
+								onClick="document.calculator.ans.value+='5'"> <b> 5 </b></button> </td>
+						<td> <button name="data-number" class="number" input type="button" value="6"
+								onClick="document.calculator.ans.value+='6'"> <b> 6 </b></button> </td>
+						<td> <button name="data-number" class="boton" input type="button" value=""
+								onClick="document.calculator.ans.value+='-'"> <b> - </b> </button> </td>
+					</tr>
+
+					<tr>
+						<td> <button name="data-number" class="number" input type="button" value="7"
+								onClick="document.calculator.ans.value+='7'"> <b> 7 </b> </button> </td>
+						<td> <button name="data-number" class="number" input type="button" value="8"
+								onClick="document.calculator.ans.value+='8'"> <b> 8 </b> </button> </td>
+						<td> <button name="data-number" class="number" type="button" value="9"
+								onClick="document.calculator.ans.value+='9'"> <b> 9 </b> </button> </td>
+						<td> <button name="data-number" class="boton" input type="button" value="1"
+								onClick="document.calculator.ans.value+='*'"> <b> * </b> </button> </td>
+					</tr>
+
+					<tr>
+						<td> <button name="data-number" class="boton" input type="button" value="0"
+								onClick="document.calculator.ans.value+='0'"> <b> 0 </b> </button> </td>
+						<td> <button name="data-number" class="boton" input type="reset" value=""
+								onClick="document.calculator.ans.value+='creset'"> <b> c </b> </button> </td>
+						<td> <button name="data-number" class="boton" input type="button" value=""
+								onClick="document.calculator.ans.value+='/'"> <b> / </b> </button> </td>
+						<td> <button name="data-number" class="boton" input type="button" value=""
+								onClick="document.calculator.ans.value+='='"> <b> = </b></button> </td>
+					</tr>
+					</tr>
+				</form>
+		</div>
+
+	</div>
+
+</body </html>
